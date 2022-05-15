@@ -88,20 +88,16 @@ while ((a+b)<c) or ((a+c)<b) or ((b+c)<a):
     break
 
 print('Q U E S T I O N  6')
-##asking for length of triangle sides input by the user
-l1=float(input('enter the length of side 1:'))   
-l2=float(input('enter the length of side 2:'))
-l3=float(input('enter the length of side 3:'))
-#converting input length values from foat datatype to integer datatype
-int(l1)                                          
-int(l2)
-int(l3)
-sum1=l1+l2
-sum2=l2+l3
-sum3=l3+l1
-if l3>sum1 or l2>sum3 or l1>sum2:
-#condition for formation of a triangle is not fulfilled
- print('no')          
-else:
-#sum of lengths of two sides is greater than the third side thus, triangle can be formed
- print('yes')       
+print ("enter 1st number")
+number_1=int(input())
+
+print ("enter 2nd number")
+number_2=int(input())
+
+ex_or=number_1^number_2
+bin_exor=bin(ex_or)
+check_string= str(bin_exor)
+
+a=check_string.count('1')
+print(a)
+   
