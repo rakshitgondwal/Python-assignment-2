@@ -35,13 +35,15 @@ PART_e
 right shifting a with 2 bits:a>>2= 14
 right shifting b with 2 bits:b>>2= 2
 Q U E S T I O N  4
-enter the first number:6
-enter the second number:7
-enter the third number:4
-the greatest of the three numbers is: 7.0
+Please enter a string:
+  My name is Rakshit. Rakshit is my name.
+  Yes 
 Q U E S T I O N  5
-enter a string:what is your name
-yes
+Please enter the length of side 1 : 1
+Please enter the length of side 2 : 10
+Please enter the lenght of side 3 : 12
+No
+
 Q U E S T I O N  6
 enter the length of side 1:4.4
 enter the length of side 2:7
