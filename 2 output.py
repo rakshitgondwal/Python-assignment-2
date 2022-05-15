@@ -45,7 +45,8 @@ Please enter the lenght of side 3 : 12
 No
 
 Q U E S T I O N  6
-enter the length of side 1:4.4
-enter the length of side 2:7
-enter the length of side 3:9
-yes
+enter 1st number
+99
+enter 2nd number
+111
+2
