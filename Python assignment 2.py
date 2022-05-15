@@ -34,9 +34,9 @@ print('input string after removing all white spaces:',str_combine)
 
 print('Q U E S T I O N  2')
 #initializing variables
-name=str('saachika paul')
-sid=int(21103119)
-department_name=str('computer science and engineering')
+name=str('rakshit')
+sid=int(21102067)
+department_name=str('civil')
 cgpa=float(9.9)
 #printing required data
 print('Hey,%s'%(name),'Here!\nMY SID is %d'%(sid),'\nI am from %s'%(department_name),'department and my CGPA is %1.1f'%(cgpa))
