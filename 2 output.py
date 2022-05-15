@@ -17,9 +17,9 @@ index of "a" in input string is: 10
 PART_f
 input string after removing all white spaces: Pythonisacasesensitivelanguage
 Q U E S T I O N  2
-Hey,saachika paul Here!
-MY SID is 21103119 
-I am from computer science and engineering department and my CGPA is 9.9
+Hey,rakshit Here!
+MY SID is 21102067
+I am from civil department and my CGPA is 9.9
 Q U E S T I O N  3
 a= 56 b= 10
 PART_a
