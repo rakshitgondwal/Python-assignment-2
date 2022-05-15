@@ -67,29 +67,25 @@ print('right shifting b with 2 bits:b>>2=',b>>2)
 
 
 print('Q U E S T I O N  4')
-#taking number inputs from user
-num1=float(input('enter the first number:'))
-num2=float(input('enter the second number:'))
-num3=float(input('enter the third number:'))
-#comparing the input numbers
-if num1>=num2 and num1>=num3:
- print('the greatest of the three numbers is:',num1)
-elif num2>=num1 and num2>=num3:
- print ('the greatest of the three numbers is:',num2)
-else:
- print('the greatest of the three numbers is:',num3)
+print("Please Enter a string :")
+char = str(input())
+x = char.find('name')
+if x == -1 :
+    print("No")
+else :
+    print("Yes")
 
 
 print('Q U E S T I O N  5')
-#taking input string from user
-input_str=str(input('enter a string:'))
-#given string is 'name'
-a='name'
-#checking if the given string is present in input string
-if a in input_str:
- print('yes')
-else:
- print('no')
+a = int(input("Please enter the length of side 1 : "))
+b = int(input("Please enter the length of side 2 : "))
+c = int(input("Please enter the length of side 3 : "))
+while ((a+b)>c) and ((a+c)>b) and ((b+c)>a):
+    print("Yes")
+    break
+while ((a+b)<c) or ((a+c)<b) or ((b+c)<a):
+    print("No")
+    break
 
 print('Q U E S T I O N  6')
 ##asking for length of triangle sides input by the user
